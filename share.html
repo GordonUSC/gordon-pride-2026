@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="theme-color" content="#FFF8EC" />
+<title>Send Me a Moment · Pride 2026 · Gordon's Month</title>
+<meta name="description" content="A box for you. Your Pride memory, a photo, a song you want me to play. It opens an iMessage to me." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" />
+<link rel="stylesheet" href="styles.css" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Pride 2026 · Gordon's Month" />
+<meta property="og:title" content="Send Me a Moment · Pride 2026 · Gordon's Month" />
+<meta property="og:description" content="A box for you. Send Gordon a Pride memory, a photo, a song, anything." />
+<meta property="og:url" content="https://gordonusc.github.io/gordon-pride-2026/share.html" />
+<meta name="twitter:card" content="summary" />
+</head>
+<body>
+
+<div class="rainbow-bar" aria-hidden="true"></div>
+
+<header class="nav">
+  <a href="index.html" class="nav__brand"><span class="dot" aria-hidden="true"></span> Gordon's Pride <span style="color: var(--purple);">·</span> 2026</a>
+  <nav class="nav__menu" aria-label="Primary">
+    <a href="index.html">Home</a>
+    <a href="people.html">The People</a>
+    <a href="june.html">The Month</a>
+    <a href="why.html">Why This One</a>
+    <a href="share.html" aria-current="page">Send Me a Moment</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero__kicker">Page 4 · Send Me a Moment</div>
+    <h1 class="display display--xl">Your turn. <span class="gradient-text italic">Send something.</span></h1>
+    <p class="hero__sub">A box for you. Type what comes to mind. It will open an iMessage to me with whatever you wrote already filled in.</p>
+  </div>
+</section>
+
+<section class="section theme-purple">
+  <div class="container container--narrow">
+    <div class="section__kicker">Things you could send</div>
+    <h2 class="display display--l section__title">Anything. Try one of these.</h2>
+
+    <div class="prose">
+      <p>If the page is blank in your head, here are six prompts. Pick one and write a sentence. Or write something else entirely. I will receive it as a text from you.</p>
+
+      <ul style="list-style: none; padding: 0; margin: 32px 0;">
+        <li style="padding: 14px 0; border-bottom: 1px solid var(--hair);"><strong style="color: var(--red);">A song</strong> you want me to play at Drake's Birthday Funday on June 21.</li>
+        <li style="padding: 14px 0; border-bottom: 1px solid var(--hair);"><strong style="color: var(--orange);">A Pride memory</strong> from a year I might not have known you yet.</li>
+        <li style="padding: 14px 0; border-bottom: 1px solid var(--hair);"><strong style="color: var(--yellow);">A photo</strong> from a parade you walked in (you can text the photo separately after the message goes through).</li>
+        <li style="padding: 14px 0; border-bottom: 1px solid var(--hair);"><strong style="color: var(--green);">An ally</strong> in your life who never says it out loud but always shows up.</li>
+        <li style="padding: 14px 0; border-bottom: 1px solid var(--hair);"><strong style="color: var(--blue);">A queer artist, writer, designer, or creator</strong> whose work has shaped you.</li>
+        <li style="padding: 14px 0;"><strong style="color: var(--purple);">A question</strong> you've been holding for me. Anything.</li>
+      </ul>
+    </div>
+
+    <div class="cta" style="--swatch: var(--red);">
+      <h3>Type below. Tap send. It goes to Gordon.</h3>
+      <p>Your phone opens a message to me with whatever you wrote already in it. Edit before you send, of course.</p>
+
+      <form id="ask-form" action="#" onsubmit="return sendMoment(event);">
+        <label for="msg" style="position:absolute;left:-9999px;">Your message</label>
+        <textarea id="msg" name="msg" placeholder="Hi Gordon, my Pride moment is..."></textarea>
+        <button type="submit" class="cta__btn" aria-label="Send to Gordon">
+          Send to Gordon <span aria-hidden="true">↗</span>
+        </button>
+      </form>
+      <p style="margin-top: 18px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3);">Opens Messages app · +1 818 472 7283</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--bg2 theme-green">
+  <div class="container container--narrow">
+    <div class="section__kicker">If you walked here from a text</div>
+    <h2 class="display display--l section__title">A note to the friend who got this link.</h2>
+
+    <div class="prose">
+      <p>If I sent you this site, it is because you are someone I want walking June with me. The link is the gesture. Read what feels good. Skip what does not. Send me a moment if it lands.</p>
+
+      <p>And the simplest version of the message I would say if you were sitting across from me right now:</p>
+
+      <p style="font-family: var(--f-display); font-style: italic; font-size: 1.375rem; color: var(--ink); text-align: center; padding: 28px 0;">Thank you for being part of mine.</p>
+
+      <p>That is the whole thing. Have a soft month.</p>
+
+      <p style="margin-top: 24px;">Gordon</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--bg3 theme-pink">
+  <div class="container container--narrow">
+
+    <div class="keystone" style="margin: 0 auto;">
+      I keep choosing you. Send me a moment.
+      <span class="keystone__attr">Pride 2026 · For All of Us</span>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p><span class="stripes" aria-hidden="true"><span class="s1"></span><span class="s2"></span><span class="s3"></span><span class="s4"></span><span class="s5"></span><span class="s6"></span></span></p>
+    <p style="margin-top: 18px;"><a href="why.html">← Previous: Why This One</a> &nbsp;·&nbsp; <a href="index.html">↺ Back to home</a></p>
+  </div>
+</footer>
+
+<script>
+function sendMoment(e) {
+  e.preventDefault();
+  var msg = document.getElementById('msg').value.trim();
+  var prefix = "Hi Gordon, sending you a Pride moment: ";
+  var body = msg.length ? (prefix + msg) : "Hi Gordon, I am sending you a Pride moment, will tell you in a sec.";
+  var url = "sms:+18184727283?&body=" + encodeURIComponent(body);
+  window.location.href = url;
+  return false;
+}
+</script>
+
+</body>
+</html>
